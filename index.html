@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <p id="sp">Student Portal</p> <br>
+    <div id="searchpart">
+        <input type="text" id="src1" placeholder="Search">
+        <button id="src2">Search</button>
+    </div>
+    <br>
+    <div id="box">
+       <button class="btn btn1" id="bt1" >Sort A<i class="bi bi-arrow-right"></i>Z</button>
+       <button class="btn btn2" >Sort Z<i class="bi bi-arrow-right"></i>A</button>
+       <button class="btn btn3" >Sort By Marks</button>
+       <button class="btn btn4" >Sort By Passing</button>
+       <button class="btn btn5" >Sort By Class</button>
+       <button class="btn btn6" >Sort By Gender</button>
+    </div> <br>
+
+    <table class="stdata" align="center" cellpadding="0" cellspacing="0">
+    
+           <tr>
+              <th class="th1" >ID</th>
+              <th class="th2">Name</th>
+              <th >Gender</th>
+              <th >Class</th>
+              <th >Marks</th>
+              <th >Passing</th>
+              <th >Email</th>
+           </tr>
+    
+        <tbody id="data-output">
+          
+        </tbody>
+     </table>
+    <script  src="script.js" type="module"></script>
+    <!-- <script src="data.json" type="text/javascript"></script> -->
+</body>
+</html>
